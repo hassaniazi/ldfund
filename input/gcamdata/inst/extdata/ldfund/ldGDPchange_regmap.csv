@@ -1,0 +1,31 @@
+# File: ldGDPchange_regmap.csv
+# Title: Long term GDP changes region mapping 
+# Units: NA
+# Comments: mapping from GCAM region IDs
+# Source: Table 2 from Kompas T.; Pham V. H.; Che T. N. (2018). The Effects of Climate Change on GDP by Country and the Global Economic Gains From Complying With the Paris Climate Accord. Earth's Future; 6(8); 1153-1173. https://doi.org/10.1029/2018EF000922
+# Column types: cnc
+# ----------
+country,GCAM_region_ID,region
+Rest of Eastern Africa,2,Africa_Eastern
+Rest of North Africa,3,Africa_Northern
+Rest of South African Customs Union,4,Africa_Southern
+South Central Africa,4,Africa_Southern
+Central Africa,5,Africa_Western
+Rest of Western Africa,5,Africa_Western
+Rest of Oceania,6,Australia_NZ
+Rest of North America,8,Canada
+Rest of North America,1,USA
+Caribbean,9,Central America and Caribbean
+Rest of Central America,9,Central America and Caribbean
+Rest of Former Soviet Union,10,Central Asia
+Rest of Western Asia,21,Middle East
+Rest of Eastern Europe,14,Europe_Eastern
+Rest of Europe,15,Europe_Non_EU
+Rest of Europe,13,EU-15
+Rest of EFTA,16,European Free Trade Association
+Rest of South America,25,South America_Northern
+Rest of South Asia,27,South Asia
+Rest of South Asia,11,China
+Rest of East Asia,29,Southeast Asia
+Rest of Southeast Asia,29,Southeast Asia
+Rest of the World,,

@@ -1,0 +1,162 @@
+# File: ldPools.csv
+# Title: Pools of sender and receivers countries
+# Units: NA
+# Comments: G7 and G20 countries as senders; E7 countries represent higher 7 emitting countries totaling to 60% of global share; E35 emit 90% of global CO2; V20 are based on Vulnerable 20 consortium https://www.v-20.org/members; Other V countries are based on EU INFORM climate risk index with Very High and High categories taken from https://drmkc.jrc.ec.europa.eu/inform-index INFORM Risk Index Mid 2023v066 (but also consider taking it from https://drmkc.jrc.ec.europa.eu/inform-index/INFORM-Climate-Change/Results-and-data to represent pools consistent with SSPs and RCPs)
+# Source: INFORM https://drmkc.jrc.ec.europa.eu/inform-index; EDGAR v7 https://edgar.jrc.ec.europa.eu/
+# Column types: ccc
+# ----------
+country,iso,pool
+Canada,can,G7
+France,fra,G7
+Germany,deu,G7
+Italy,ita,G7
+Japan,jpn,G7
+United Kingdom,gbr,G7
+United States,usa,G7
+Argentina,arg,G20
+Australia,aus,G20
+Brazil,bra,G20
+Canada,can,G20
+China,chn,G20
+France,fra,G20
+Germany,deu,G20
+India,ind,G20
+Indonesia,idn,G20
+Italy,ita,G20
+Japan,jpn,G20
+Mexico,mex,G20
+Republic of Korea,kor,G20
+Russia,rus,G20
+Saudi Arabia,sau,G20
+South Africa,zaf,G20
+Turkey,tur,G20
+United Kingdom,gbr,G20
+United States,usa,G20
+European Union,eu,G20
+United States,usa,E7
+China,chn,E7
+Russia,rus,E7
+Japan,jpn,E7
+India,ind,E7
+Germany,deu,E7
+United Kingdom,gbr,E7
+United States,usa,E35
+China,chn,E35
+Russia,rus,E35
+Japan,jpn,E35
+India,ind,E35
+Germany,deu,E35
+United Kingdom,gbr,E35
+Ukraine,ukr,E35
+Canada,can,E35
+France and Monaco,fra,E35
+"Italy, San Marino and the Holy See",ita,E35
+South Korea,kor,E35
+Poland,pol,E35
+South Africa,zaf,E35
+Mexico,mex,E35
+Iran,irn,E35
+Brazil,bra,E35
+Australia,aus,E35
+Saudi Arabia,sau,E35
+Indonesia,idn,E35
+Spain and Andorra,esp,E35
+Kazakhstan,kaz,E35
+Turkey,tur,E35
+Taiwan,twn,E35
+Netherlands,nld,E35
+Czechia,cze,E35
+Thailand,tha,E35
+Argentina,arg,E35
+Romania,rou,E35
+Egypt,egy,E35
+Belgium,bel,E35
+Malaysia,mys,E35
+Venezuela,ven,E35
+Uzbekistan,uzb,E35
+United Arab Emirates,are,E35
+Afghanistan,afg,V20
+Bangladesh,bgd,V20
+Barbados,brb,V20
+Bhutan,btn,V20
+Costa Rica,cri,V20
+Dominican Republic,dom,V20
+Ethiopia,eth,V20
+Ghana,gha,V20
+Grenada,grd,V20
+Guatemala,gt,V20
+Haiti,hti,V20
+Honduras,hnd,V20
+Kenya,ken,V20
+Kiribati,kir,V20
+Madagascar,mdg,V20
+Malawi,mwi,V20
+Nepal,npl,V20
+Philippines,phl,V20
+Rwanda,rwa,V20
+Saint Lucia,lca,V20
+Samoa,wsm,V20
+Senegal,sen,V20
+Sudan,sdn,V20
+Tanzania,tza,V20
+Timor-Leste,tls,V20
+Tuvalu,tuv,V20
+Vanuatu,vut,V20
+Yemen,yem,V20
+Somalia,som,VinformVH
+South Sudan,sdn,VinformVH
+Central African Republic,caf,VinformVH
+Afghanistan,afg,VinformVH
+Yemen,yem,VinformVH
+Chad,tcd,VinformVH
+Congo DR,cod,VinformVH
+Niger,ner,VinformVH
+Mozambique,moz,VinformVH
+Sudan,sdn,VinformVH
+Burkina Faso,bfa,VinformVH
+Ethiopia,eth,VinformVH
+Uganda,uga,VinformVH
+Mali,mli,VinformVH
+Syria,syr,VinformVH
+Myanmar,mmr,VinformVH
+Nigeria,nga,VinformVH
+Cameroon,cmr,VinformVH
+Kenya,ken,VinformVH
+Iraq,irq,VinformVH
+Somalia,som,VinformVHH
+South Sudan,sdn,VinformVHH
+Central African Republic,caf,VinformVHH
+Afghanistan,afg,VinformVHH
+Yemen,yem,VinformVHH
+Chad,tcd,VinformVHH
+Congo DR,cod,VinformVHH
+Niger,ner,VinformVHH
+Mozambique,moz,VinformVHH
+Sudan,sdn,VinformVHH
+Burkina Faso,bfa,VinformVHH
+Ethiopia,eth,VinformVHH
+Uganda,uga,VinformVHH
+Mali,mli,VinformVHH
+Syria,syr,VinformVHH
+Myanmar,mmr,VinformVHH
+Nigeria,nga,VinformVHH
+Cameroon,cmr,VinformVHH
+Kenya,ken,VinformVHH
+Iraq,irq,VinformVHH
+Haiti,hti,VinformVHH
+Pakistan,pak,VinformVHH
+Eritrea,eri,VinformVHH
+Libya,lby,VinformVHH
+Burundi,bdi,VinformVHH
+Papua New Guinea,png,VinformVHH
+Tanzania,tza,VinformVHH
+Azerbaijan,aze,VinformVHH
+Bangladesh,bgd,VinformVHH
+Colombia,col,VinformVHH
+Madagascar,mdg,VinformVHH
+Philippines,phl,VinformVHH
+Honduras,hnd,VinformVHH
+Djibouti,dji,VinformVHH
+Guatemala,gtm,VinformVHH
+Türkiye,tur,VinformVHH
+Congo,cog,VinformVHH

@@ -1,0 +1,147 @@
+# File: ldGDPchange.csv
+# Title: Long term GDP changes for countries and regions in each RCP
+# Units: Percent
+# Comments: Added ISO3
+# Source: Table 2 from Kompas T.; Pham V. H.; Che T. N. (2018). The Effects of Climate Change on GDP by Country and the Global Economic Gains From Complying With the Paris Climate Accord. Earth's Future; 6(8); 1153-1173. https://doi.org/10.1029/2018EF000922
+# Column types: ccnnnn
+# ----------
+country, iso,1C,2C,3C,4C
+Albania,alb,-0.395,-0.857,-1.461,-2.36
+Argentina,arg,-0.36,-0.872,-1.583,-2.61
+Armenia,arm,-0.739,-1.05,-1.35,-1.777
+Australia,aus,-0.287,-0.642,-1.083,-1.585
+Austria,aut,-0.122,-0.287,-0.486,-0.728
+Azerbaijan,aze,-0.756,-1.563,-2.638,-4.025
+Bahrain,bhr,-1.44,-3.192,-5.138,-7.303
+Bangladesh,bgd,-2.285,-4.755,-7.591,-11.237
+Belarus,blr,-0.176,-0.214,-0.249,-0.617
+Belgium,bel,-0.151,-0.33,-0.54,-0.788
+Bolivia,bol,-0.65,-1.442,-2.332,-3.356
+Botswana,bwa,-0.71,-1.659,-3.047,-4.873
+Brazil,bra,-0.615,-1.91,-3.843,-6.829
+Brunei Darussalam,brn,-1.202,-3.134,-5.563,-8.173
+Bulgaria,bgr,-0.09,-0.294,-0.59,-0.999
+Burkina Faso,bfa,-5.229,-10.894,-17.058,-23.586
+Cambodia,khm,-3.509,-7.572,-12.101,-17.183
+Cameroon,cmr,-2.276,-5.528,-9.396,-14.48
+Canada,can,-0.096,-0.158,-0.218,-0.321
+Caribbean,-,-1.864,-4.529,-8.207,-12.605
+Central Africa,-,-1.013,-2.43,-4.977,-8.362
+Chile,chl,-0.323,-0.709,-1.158,-1.674
+China,chn,-0.755,-1.694,-2.918,-4.597
+Colombia,col,-1.104,-2.714,-5.532,-9.325
+Costa Rica,cri,-1.407,-4.047,-7.871,-12.928
+Cote dIvoire,civ,-4.71,-10.742,-17.528,-25.252
+Croatia,hrv,-0.083,-0.216,-0.454,-0.946
+Cyprus,cyp,-0.194,-0.462,-0.816,-1.481
+Czech Republic,cze,-0.169,-0.352,-0.567,-0.842
+Denmark,dnk,-0.127,-0.252,-0.393,-0.573
+Dominican Republic,dom,-1.85,-4.406,-7.934,-12.171
+Ecuador,ecu,-0.741,-1.627,-2.599,-3.801
+Egypt,egy,-1.083,-2.377,-4,-6.143
+El Salvador,slv,-0.986,-2.498,-4.957,-8.438
+Estonia,est,-0.23,-0.476,-0.75,-1.087
+Ethiopia,eth,-1.862,-4.238,-6.704,-9.416
+Finland,fin,-0.067,-0.153,-0.254,-0.383
+France,fra,-0.139,-0.285,-0.455,-0.662
+Georgia,geo,-0.393,-0.68,-1.035,-1.769
+Germany,deu,-0.118,-0.254,-0.415,-0.608
+Ghana,gha,-4.857,-10.815,-17.571,-24.983
+Greece,grc,-0.048,-0.149,-0.275,-0.708
+Guatemala,gtm,-0.694,-1.553,-2.798,-4.533
+Guinea,gin,-2.712,-6.093,-9.896,-14.689
+Honduras,hnd,-2.751,-6.492,-11.126,-16.521
+Hong Kong,hkg,-1.314,-3.082,-5.288,-7.655
+Hungary,hun,-0.197,-0.39,-0.59,-0.884
+India,ind,-2.922,-6.434,-10.351,-14.622
+Indonesia,idn,-3.347,-7.98,-13.267,-19.04
+Iran,irn,-0.894,-2.044,-3.516,-5.365
+Ireland,irl,-0.184,-0.436,-0.748,-1.125
+Israel,isr,-0.743,-1.514,-2.317,-3.416
+Italy,ita,-0.144,-0.342,-0.588,-0.906
+Jamaica,jam,-1.485,-3.696,-6.94,-10.813
+Japan,jpn,-0.182,-0.595,-1.335,-2.412
+Jordan,jor,-0.982,-1.998,-3.254,-4.835
+Kazakhstan,kaz,-0.371,-0.592,-0.82,-1.137
+Kenya,ken,-2.331,-4.706,-7.238,-10.506
+Kuwait,kwt,-1.315,-2.795,-4.488,-6.387
+Kyrgyzstan,kgz,-0.377,-0.614,-0.93,-1.5
+Laos,lao,-3.369,-6.795,-10.62,-15.759
+Latvia,lva,-0.14,-0.259,-0.394,-0.564
+Lithuania,ltu,-0.179,-0.288,-0.394,-0.587
+Luxembourg,lux,-0.137,-0.343,-0.6,-0.896
+Madagascar,mdg,-1.976,-4.286,-7.212,-10.993
+Malawi,mwi,-2.277,-5.683,-9.266,-13.609
+Malaysia,mys,-3.084,-7.145,-12.118,-17.339
+Malta,mlt,-0.275,-0.691,-1.261,-2.083
+Mauritius,mus,-1.829,-4.399,-7.458,-11.245
+Mexico,mex,-0.506,-1.178,-2.277,-3.985
+Mongolia,mng,-0.789,-1.664,-2.71,-3.981
+Morocco,mar,-0.77,-1.525,-2.436,-3.487
+Mozambique,moz,-2.411,-5.311,-8.878,-12.989
+Namibia,nam,-0.673,-1.464,-2.404,-3.616
+Nepal,npl,-1.012,-2.881,-5.731,-9.859
+Netherlands,nld,-0.118,-0.275,-0.467,-0.694
+New Zealand,nzl,-0.144,-0.413,-0.798,-1.269
+Nicaragua,nic,-3.02,-6.898,-11.673,-17.264
+Nigeria,nga,-4.528,-9.689,-15.723,-22.25
+Norway,nor,-0.16,-0.377,-0.646,-0.967
+Oman,omn,-0.996,-2.248,-3.78,-5.482
+Pakistan,pak,-1.901,-3.994,-6.435,-9.338
+Panama,pan,-2.197,-5.367,-9.58,-14.457
+Paraguay,pry,-1.604,-3.873,-6.729,-10.142
+Peru,per,-0.509,-1.169,-1.934,-2.768
+Philippines,phl,-4.113,-9.185,-14.798,-20.986
+Poland,pol,-0.166,-0.332,-0.514,-0.774
+Portugal,prt,-0.12,-0.275,-0.46,-0.684
+Puerto Rico,pri,-1.269,-3.297,-6.527,-10.536
+Qatar,qat,-2.091,-4.618,-7.304,-10.358
+Rest of Central America,-,-1.675,-5.603,-11.646,-18.231
+Rest of East Asia,-,-2.389,-5.709,-9.49,-13.71
+Rest of Eastern Africa,-,-2.112,-4.75,-8.099,-11.862
+Rest of Eastern Europe,-,0.011,0.16,0.37,0.492
+Rest of EFTA,-,-0.097,-0.242,-0.421,-0.634
+Rest of Europe,-,-0.089,-0.15,-0.205,-0.318
+Rest of Former Soviet Union,-,-0.239,-0.392,-0.564,-0.888
+Rest of North Africa,-,-0.653,-1.415,-2.394,-3.639
+Rest of North America,-,-0.231,-0.539,-0.902,-1.292
+Rest of Oceania,-,-1.015,-2.627,-5.171,-8.553
+Rest of South African Customs Union,-,-0.89,-1.923,-3.045,-4.39
+Rest of South America,-,-0.459,-0.937,-1.545,-2.446
+Rest of South Asia,-,-2.778,-6.002,-9.606,-13.88
+Rest of Southeast Asia,-,-3.811,-8.11,-12.924,-18.573
+Rest of the World,-,-0.587,-1.227,-1.918,-2.671
+Rest of Western Africa,-,-4.432,-9.769,-15.566,-21.938
+Rest of Western Asia,-,-0.829,-1.879,-3.306,-4.985
+Romania,rou,-0.171,-0.329,-0.483,-0.754
+Russian Federation,rus,-0.266,-0.568,-0.936,-1.405
+Rwanda,rwa,-2.107,-4.49,-7.047,-9.819
+Saudi Arabia,sau,-1.65,-3.457,-5.449,-7.773
+Senegal,sen,-3.859,-8.189,-13.001,-18.544
+Singapore,sgp,-2.729,-6.923,-11.652,-16.566
+Slovakia,svk,-0.129,-0.285,-0.47,-0.706
+Slovenia,svn,-0.139,-0.31,-0.512,-0.764
+South Africa,zaf,-0.74,-1.57,-2.464,-3.433
+South Central Africa,-,-0.961,-2.066,-3.32,-4.894
+South Korea,kor,-0.211,-0.731,-1.498,-2.666
+Spain,esp,-0.147,-0.341,-0.575,-0.871
+Sri Lanka,lka,-2.989,-6.941,-11.716,-17.437
+Sweden,swe,-0.095,-0.211,-0.349,-0.516
+Switzerland,che,-0.094,-0.214,-0.355,-0.522
+Taiwan,twn,-1.597,-3.56,-5.978,-8.552
+Tanzania,tza,-1.546,-4.13,-6.988,-10.825
+Thailand,tha,-2.541,-5.749,-9.243,-13.269
+Togo,tgo,-5.597,-12.221,-19.032,-26.556
+Trinidad and Tobago,tto,-1.69,-4.15,-7.357,-10.905
+Tunisia,tun,-0.871,-1.836,-3.052,-4.609
+Turkey,tur,-0.342,-0.842,-1.54,-2.479
+Uganda,uga,-1.743,-3.652,-6.328,-10.404
+Ukraine,ukr,-0.153,-0.219,-0.25,-0.382
+United Arab Emirates,are,-2.207,-4.799,-7.684,-10.976
+United Kingdom,gbr,-0.122,-0.26,-0.422,-0.613
+United States of America,usa,-0.182,-0.392,-0.622,-0.885
+Uruguay,ury,-0.471,-1.023,-1.776,-2.785
+Venezuela,ven,-0.649,-1.794,-3.614,-6.339
+Vietnam,vnm,-2.223,-4.862,-7.959,-11.641
+Zambia,zmb,-1.097,-2.616,-4.414,-6.72
+Zimbabwe,zwe,-1.261,-2.726,-4.423,-6.502
