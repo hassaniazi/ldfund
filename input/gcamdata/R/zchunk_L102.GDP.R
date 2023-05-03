@@ -325,29 +325,14 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
 
     # complete the country level updated GDPs data table ----
 
-    # gdp_bilusd_cntry_Yfut %>%
-    #   repeat_add_columns(tibble(temp_change = c("1C", "2C", "3C", "4C"))) %>%
-    #   left_join(select(cntry_gdp_adjust_sender_e7, c(iso, country, year, scenario, temp_change, sender_gdp_loss))) %>%
-    #   replace_na(list(sender_gdp_loss = 0)) %>%
-    #   mutate(gdp = gdp - sender_gdp_loss) %>%
-    #   select(iso, GCAM_region_ID, year, scenario, temp_change, gdp) -> cntry_gdp_adjust_sender_e7_all
-    #
-    # # bring back in the receivers countries with unchanged GDPs
-    # gdp_bilusd_cntry_Yfut %>%
-    #   repeat_add_columns(tibble(temp_change = c("1C", "2C", "3C", "4C"))) %>%
-    #   left_join(select(cntry_gdp_adjust_receiver_vhh, c(iso, country, year, scenario, temp_change, gdp_adjust))) %>%
-    #   #replace_na(list(gdp_adjust = gdp)) -> a  %>%
-    #   mutate(gdp = if_else(is.na(gdp_adjust) == T, gdp, gdp_adjust)) %>%
-    #   select(iso, GCAM_region_ID, year, scenario, temp_change, gdp) -> cntry_gdp_adjust_receiver_vhh_all
-
-    # combine updated senders and receivers GDP
+    # combine updated GDPs of senders and receivers
     gdp_bilusd_cntry_Yfut %>%
       repeat_add_columns(tibble(temp_change = c("1C", "2C", "3C", "4C"))) %>%
       # bring back in the sender countries with unchanged GDPs
       left_join(select(cntry_gdp_adjust_sender_e7, c(iso, year, scenario, temp_change, sender_gdp_loss))) %>%
       replace_na(list(sender_gdp_loss = 0)) %>%
       mutate(gdp = gdp - sender_gdp_loss) %>%
-      # bring back in the reciever countries with changed GDPs
+      # bring back in the reciever countries with unchanged GDPs
       left_join(select(cntry_gdp_adjust_receiver_vhh, c(iso, year, scenario, temp_change, gdp_adjust))) %>%
       mutate(gdp = if_else(is.na(gdp_adjust), gdp, gdp_adjust)) %>%
       select(iso, GCAM_region_ID, year, scenario, temp_change, gdp) -> cntry_gdp_adjust_all
@@ -364,7 +349,6 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
     }
 
     # tie historical country level GDPs to LDfund processed GDPs
-    # filter before 2020
     SSP_database_v9 %>%
       filter(MODEL == 'OECD Env-Growth' & VARIABLE == 'GDP|PPP') %>%
       standardize_iso('REGION') %>%
@@ -380,13 +364,13 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       select(!SCENARIO) %>%
       ungroup() %>%
       filter(year < 2020) %>% # only keep historical model years
-    # attach row bind ldfund processing
-    bind_rows(cntry_gdp_adjust_3C) -> cntry_gdp_adjust_3C_Yall
+    # attach ldfund processing. Change temp change here
+    bind_rows(cntry_gdp_adjust_4C) -> cntry_gdp_adjust_4C_Yall
 
     ## Get the future GDP in the SSP scenarios. These are PPP values in 2005 dollars
     gdp_bilusd_rgn_Yfut <-
-      # WHATEVER-THE-FINAL-LDFUND-PROCESSING-OUTPUT-IS
-      cntry_gdp_adjust_3C_Yall %>%
+      # PUT-WHATEVER-THE-FINAL-LDFUND-PROCESSING-OUTPUT-IS
+      cntry_gdp_adjust_4C_Yall %>%
       # filter(SSP_database_v9, MODEL == 'OECD Env-Growth' & VARIABLE == 'GDP|PPP') %>%
       # standardize_iso('REGION') %>%
       # change_iso_code('rou', 'rom') %>%
