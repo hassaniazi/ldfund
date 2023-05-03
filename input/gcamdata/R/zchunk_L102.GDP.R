@@ -292,16 +292,6 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       mutate(gdp_adjust = gdp * (1 + abs((gdp_change/100))),
              gdp_change_usd = gdp_adjust - gdp) -> cntry_gdp_adjust_receiver_vhh # final adjust GDPs for reciever countries
 
-    # calculate total damages in vulnerable countries (i.e., gdp change), DONT NEED THIS
-    # receiver_vhh_gdp_adjust %>%
-    #   group_by(country, iso, GCAM_region_ID, region, year, scenario, temp_change) %>%
-    #   summarize(total_gdp_adjust = sum(gdp_adjust),
-    #             total_gdp = sum(gdp)) %>%
-    #   mutate(gdp_change_usd = total_gdp_adjust - total_gdp) %>%
-    #   ungroup() -> receiver_vhh_gdp_change_value
-
-    # check: sum(receiver_vhh_gdp_change_value$gdp_change_usd) should be equal to
-    # (sum(receiver_vhh_gdp_adjust$gdp_adjust) - sum(receiver_vhh_gdp_adjust$gdp))
     cntry_gdp_adjust_receiver_vhh %>%
       group_by(year, scenario, temp_change) %>%
       summarize(total_gdp_change_usd = sum(gdp_change_usd)) %>%
@@ -365,12 +355,12 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       ungroup() %>%
       filter(year < 2020) %>% # only keep historical model years
     # attach ldfund processing. Change temp change here
-    bind_rows(cntry_gdp_adjust_4C) -> cntry_gdp_adjust_4C_Yall
+    bind_rows(cntry_gdp_adjust_3C) -> cntry_gdp_adjust_3C_Yall
 
     ## Get the future GDP in the SSP scenarios. These are PPP values in 2005 dollars
     gdp_bilusd_rgn_Yfut <-
       # PUT-WHATEVER-THE-FINAL-LDFUND-PROCESSING-OUTPUT-IS
-      cntry_gdp_adjust_4C_Yall %>%
+      cntry_gdp_adjust_3C_Yall %>%
       # filter(SSP_database_v9, MODEL == 'OECD Env-Growth' & VARIABLE == 'GDP|PPP') %>%
       # standardize_iso('REGION') %>%
       # change_iso_code('rou', 'rom') %>%
