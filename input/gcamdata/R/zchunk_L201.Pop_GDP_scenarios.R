@@ -61,7 +61,7 @@ module_socioeconomics_L201.Pop_GDP_scenarios <- function(command, ...) {
 
     # ===================================================
     # Stitch together history and future population
-    # First, repeat hisotry for all scenarios
+    # First, repeat history for all scenarios
     L101.Pop_thous_Scen_R_Y <- L101.Pop_thous_R_Yh %>%
       repeat_add_columns(tibble(scenario = unique(L101.Pop_thous_Scen_R_Yfut$scenario))) %>%
       bind_rows(L101.Pop_thous_Scen_R_Yfut) %>% # add future

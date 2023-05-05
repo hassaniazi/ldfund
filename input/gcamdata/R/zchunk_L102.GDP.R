@@ -225,14 +225,16 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
     rbind(ldGDPchange_gcam_restof_iso, ldGDPchange_gcam_iso) %>%
       arrange(GCAM_region_ID, iso) -> ldGDPchange_gcam
 
+    # write and plot gdp change in each temperature change for each country or gcam region
     # write.csv(ldGDPchange_gcam, file = "ldGDPchange_gcam.csv")
-
-    # plot gdp change in each temperature change for each gcam region
-    # df <- ldGDPchange_gcam %>% tidyr::pivot_longer(cols = ends_with("C"), names_to = "temp_change", values_to = "gdp_change")
-    # ggplot(df, aes(x = gdp_change, y = temp_change)) +
+    # df0 <- ldGDPchange_gcam %>% tidyr::pivot_longer(cols = ends_with("C"), names_to = "temp_change", values_to = "gdp_change")
+    # colors <- c("green4","orange2", "yellow2", "darkred")
+    # ggplot(df0, aes(x = gdp_change, y = temp_change)) +
     #   geom_point(aes(colour = temp_change)) +
-    #   facet_wrap(~region, ncol=8) + theme_bw()
-    # # facet_wrap(~country, ncol=10) + theme_bw()
+    #   facet_wrap(~region, ncol=8) +
+    #   scale_color_manual(values = colors) +
+    #   theme_bw()
+    # facet_wrap(~country, ncol=10) + theme_bw()
 
     # Country's future GDP in each SSP  ----
     # These are PPP values in billion 2005 dollars (billion US$2005/yr)
@@ -290,7 +292,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       tidyr::pivot_longer(cols = ends_with("C"), names_to = "temp_change", values_to = "gdp_change") %>%
       # compensate damages of vulnerable countries
       mutate(gdp_adjust = gdp * (1 + abs((gdp_change/100))),
-             gdp_change_usd = gdp_adjust - gdp) -> cntry_gdp_adjust_receiver_vhh # final adjust GDPs for reciever countries
+             gdp_change_usd = gdp_adjust - gdp) -> cntry_gdp_adjust_receiver_vhh # final adjust GDPs for receiver countries
 
     cntry_gdp_adjust_receiver_vhh %>%
       group_by(year, scenario, temp_change) %>%
@@ -303,6 +305,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       gather_years() %>% group_by(country, iso) %>%
       summarise(total_emissions = sum(value)) %>% ungroup() %>%
       mutate(emissions_share = total_emissions/sum(total_emissions)) -> sender_e7_emissions_share
+    # write.csv(sender_e7_emissions_share, file = "sender_e7_emissions_share.csv")
 
     # check: the following should be equal to 100, sum(sender_e7_emissions_share$emissions_share)
     # senders new gdp accounting for damages payments
@@ -312,6 +315,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       rename(total_gdp_change_usd_receiver = total_gdp_change_usd) %>%
       mutate(sender_gdp_loss = total_gdp_change_usd_receiver * emissions_share,
              sender_gdp_adjust = gdp - sender_gdp_loss) -> cntry_gdp_adjust_sender_e7
+    # write.csv(cntry_gdp_adjust_sender_e7, file = "cntry_gdp_adjust_sender_e7.csv")
 
     # complete the country level updated GDPs data table ----
 
@@ -322,10 +326,39 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       left_join(select(cntry_gdp_adjust_sender_e7, c(iso, year, scenario, temp_change, sender_gdp_loss))) %>%
       replace_na(list(sender_gdp_loss = 0)) %>%
       mutate(gdp = gdp - sender_gdp_loss) %>%
-      # bring back in the reciever countries with unchanged GDPs
+      # bring back in the receiver countries with unchanged GDPs
       left_join(select(cntry_gdp_adjust_receiver_vhh, c(iso, year, scenario, temp_change, gdp_adjust))) %>%
       mutate(gdp = if_else(is.na(gdp_adjust), gdp, gdp_adjust)) %>%
       select(iso, GCAM_region_ID, year, scenario, temp_change, gdp) -> cntry_gdp_adjust_all
+
+
+    # # checks
+    # sum((a %>% filter(temp_change == "1C", scenario == "SSP2", year == 2100))$sender_gdp_loss)
+    # sum((a %>% filter(temp_change == "1C", scenario == "SSP2", year == 2100) %>% drop_na())$gdp_change_usd)
+    #
+    # sum((cntry_gdp_adjust_sender_e7 %>% filter(temp_change == "1C", scenario == "SSP2", year == 2100))$sender_gdp_loss)
+    # sum((cntry_gdp_adjust_receiver_vhh %>% filter(temp_change == "1C", scenario == "SSP2", year == 2100))$gdp_change_usd)
+    #
+    # sum((gdp_bilusd_cntry_Yfut %>% filter(scenario == "SSP2", year == 2100))$gdp)
+
+    # # write and plot gdp change in each temperature change for each country or gcam region
+    # write.csv(cntry_gdp_adjust_all, file = "cntry_gdp_adjust_all.csv")
+    # df <- cntry_gdp_adjust_all %>%
+    #   group_by(scenario, temp_change, GCAM_region_ID, year) %>%
+    #   summarise(gdp = sum(gdp)) %>%
+    #   #filter(temp_change == "4C", scenario == "SSP5") %>%
+    #   filter(scenario == "SSP2") %>%
+    #   left_join(gcam_iso_region, by = c("GCAM_region_ID"))
+    # #%>% tidyr::pivot_longer(cols = ends_with("C"), names_to = "temp_change", values_to = "gdp_change")
+    #
+    # ggplot(df, aes(x = year, y = gdp, group = temp_change)) +
+    #   geom_line(aes(colour = temp_change)) +
+    #   #geom_point(aes(colour = temp_change)) +
+    #   facet_wrap(~region, ncol=8, scales="free_y") +
+    #   scale_color_manual(values = colors) +
+    #   theme_bw()
+    # # facet_wrap(~country, ncol=10) + theme_bw()
+    # # df for country SSP GDPs: gdp_bilusd_cntry_Yfut
 
     # extract each RCP data frame and assign a new name ----
     cntry_gdp_adjust_all %>%
@@ -383,6 +416,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
       ungroup()
     ## Units are billions of 2005$
 
+    # check: sum((gdp_bilusd_rgn_Yfut %>% filter(scenario == "SSP2", year == 2100))$gdp)
 
     gdp.mil90usd.SSP.rgn.yr <- join.gdp.ts(gdp_mil90usd_rgn, gdp_bilusd_rgn_Yfut, 'GCAM_region_ID')
 
@@ -619,6 +653,8 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
                      "socioeconomics/IMF_GDP_growth",
                      "L100.gdp_mil90usd_ctry_Yh") ->
       L102.gdp_mil90usd_Scen_R_Y
+
+    # check: sum((L102.gdp_mil90usd_Scen_R_Y %>% filter(year == 2100, scenario == "gSSP2"))$value)
 
     pcgdp.thous90usd.scen.rgn.yr %>%
       ungroup %>%
