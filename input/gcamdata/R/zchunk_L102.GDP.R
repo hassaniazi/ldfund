@@ -346,6 +346,8 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
 
     # downscale back to countries
     gdp_bilusd_cntry_Yfut_raw %>%
+      rbind(gdp_bilusd_cntry_Yfut_raw %>%
+              mutate(scenario = paste0("g", scenario))) %>% # use the same CR ratio for gSSP as used for SSPs
       select(!gdp) %>%
       left_join(gdp.mil90usd.scen.rgn.yr, by = c("GCAM_region_ID", "year", "scenario")) %>%
       mutate(gdp = gdp * CR) %>%
