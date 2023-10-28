@@ -283,6 +283,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
     iso_GCAM_regID %>%
       left_join(GCAM_region_names, by = "GCAM_region_ID") %>%
       select(!region_GCAM3) %>% filter(iso != "rou") -> gcam_iso_region
+    # write.csv(gcam_iso_region, file = "gcam_iso_region.csv")
 
     # GDP change mapping to GCAM regions for countries with data
     ldGDPchange %>%
@@ -311,6 +312,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
     # GDP change by GCAM countries and regions in 4 climates ----
     rbind(ldGDPchange_gcam_restof_iso, ldGDPchange_gcam_iso) %>%
       arrange(GCAM_region_ID, iso) -> ldGDPchange_gcam
+    # write.csv(ldGDPchange_gcam, file = "ldGDPchange_gcam.csv")
 
     # write and plot gdp change in each temperature change for each country or gcam region
     # write.csv(ldGDPchange_gcam, file = "ldGDPchange_gcam.csv")
@@ -325,6 +327,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
 
     # country's future GDP in each SSP  ----
     # These are PPP values in billion 2005 dollars (billion US$2005/yr)
+    # calculate country to region GDP ratio on raw unchanged gdp trajectories
     gdp_bilusd_cntry_Yfut_raw <-
       filter(SSP_database_v9, MODEL == 'OECD Env-Growth' & VARIABLE == 'GDP|PPP') %>%
       standardize_iso('REGION') %>%
@@ -345,6 +348,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
 
 
     # downscale back to countries
+    # apply the ratio of country's gdp share in a region to the "corrected" SSP and gSSP trajectories
     gdp_bilusd_cntry_Yfut_raw %>%
       rbind(gdp_bilusd_cntry_Yfut_raw %>%
               mutate(scenario = paste0("g", scenario))) %>% # use the same CR ratio for gSSP as used for SSPs
@@ -499,6 +503,7 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
 
     # check: sum((cntry_gdp_adjust_3C %>% filter(scenario == "SSP2", year == 2100))$gdp)
 
+    # CHANGE SCENARIO HERE cntry_gdp_adjust_3C ----
     gdp_bilusd_rgn_Yfut_adj <- cntry_gdp_adjust_3C %>%
       group_by(scenario, GCAM_region_ID, year) %>%
       summarise(gdp = sum(gdp)) %>%
@@ -513,8 +518,6 @@ module_socioeconomics_L102.GDP <- function(command, ...) {
 
     gdp.mil90usd.scen.rgn.yr <- rbind(gdp.mil90usd.scen.rgn.yr %>% filter(year < 2020),
                                       gdp_bilusd_rgn_Yfut_adj)
-
-    gdp.mil90usd.scen.rgn.yr %>% complete(nesting(scenario, GCAM_region_ID, year))
 
     ## Get the future GDP in the SSP scenarios. These are PPP values in 2005 dollars
     # gdp_bilusd_rgn_Yfut <-
