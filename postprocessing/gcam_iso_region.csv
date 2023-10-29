@@ -1,0 +1,243 @@
+iso,country_name,GCAM_region_ID,region
+abw,Aruba,9,Central America and Caribbean
+afg,Afghanistan,27,South Asia
+ago,Angola,4,Africa_Southern
+aia,Anguilla,9,Central America and Caribbean
+alb,Albania,15,Europe_Non_EU
+and,Andorra,13,EU-15
+ant,Netherlands Antilles,9,Central America and Caribbean
+are,United Arab Emirates,21,Middle East
+arg,Argentina,31,Argentina
+arm,Armenia,10,Central Asia
+asm,American Samoa,29,Southeast Asia
+atg,Antigua & Barbuda,9,Central America and Caribbean
+aus,Australia,6,Australia_NZ
+aut,Austria,13,EU-15
+aze,Azerbaijan,10,Central Asia
+bdi,Burundi,2,Africa_Eastern
+bel,Belgium,13,EU-15
+ben,Benin,5,Africa_Western
+bfa,Burkina Faso,5,Africa_Western
+bgd,Bangladesh,27,South Asia
+bgr,Bulgaria,12,EU-12
+bhr,Bahrain,21,Middle East
+bhs,Bahamas,9,Central America and Caribbean
+bih,Bosnia and Herzegovina,15,Europe_Non_EU
+blr,Belarus,14,Europe_Eastern
+blz,Belize,9,Central America and Caribbean
+bmu,Bermuda,9,Central America and Caribbean
+bol,Bolivia,26,South America_Southern
+bra,Brazil,7,Brazil
+brb,Barbados,9,Central America and Caribbean
+brn,Brunei Darussalam,29,Southeast Asia
+btn,Bhutan,27,South Asia
+bwa,Botswana,4,Africa_Southern
+caf,Central African Republic,5,Africa_Western
+can,Canada,8,Canada
+cck,Cocos (Keeling) Islands,29,Southeast Asia
+che,Switzerland,16,European Free Trade Association
+chi,Channel Islands,13,EU-15
+chl,Chile,26,South America_Southern
+chn,China,11,China
+civ,Cote dIvoire,5,Africa_Western
+cmr,Cameroon,5,Africa_Western
+cod,"Congo, the Democratic Republic of the",5,Africa_Western
+cog,Congo,5,Africa_Western
+cok,Cook Islands,29,Southeast Asia
+col,Colombia,32,Colombia
+com,Comoros,2,Africa_Eastern
+cpv,Cape Verde,5,Africa_Western
+cri,Costa Rica,9,Central America and Caribbean
+cub,Cuba,9,Central America and Caribbean
+cuw,Curacao,9,Central America and Caribbean
+cym,Cayman Islands,9,Central America and Caribbean
+cyp,Cyprus,12,EU-12
+cxr,Christmas Island,29,Southeast Asia
+cze,Czech Republic,12,EU-12
+deu,Germany,13,EU-15
+dji,Djibouti,2,Africa_Eastern
+dma,Dominica,9,Central America and Caribbean
+dnk,Denmark,13,EU-15
+dom,Dominican Republic,9,Central America and Caribbean
+dza,Algeria,3,Africa_Northern
+ecu,Ecuador,26,South America_Southern
+egy,Egypt,3,Africa_Northern
+eri,Eritrea,2,Africa_Eastern
+esh,Western Sahara,3,Africa_Northern
+esp,Spain,13,EU-15
+est,Estonia,12,EU-12
+eth,Ethiopia,2,Africa_Eastern
+fin,Finland,13,EU-15
+fji,Fiji,29,Southeast Asia
+flk,Falkland Islands (Malvinas),13,EU-15
+fra,France,13,EU-15
+fro,Faroe Islands,13,EU-15
+fsm,"Micronesia, Federated States of",29,Southeast Asia
+gab,Gabon,5,Africa_Western
+gbr,United Kingdom,13,EU-15
+geo,Georgia,10,Central Asia
+ggy,Guernsey,13,EU-15
+gha,Ghana,5,Africa_Western
+gib,Gibraltar,13,EU-15
+gin,Guinea,5,Africa_Western
+glp,Guadeloupe,9,Central America and Caribbean
+gmb,Gambia,5,Africa_Western
+gnb,Guinea-Bissau,5,Africa_Western
+gnq,Equatorial Guinea,5,Africa_Western
+grc,Greece,13,EU-15
+grd,Grenada,9,Central America and Caribbean
+grl,Greenland,13,EU-15
+gtm,Guatemala,9,Central America and Caribbean
+guf,French Guiana,25,South America_Northern
+gum,Guam,29,Southeast Asia
+guy,Guyana,25,South America_Northern
+hkg,Hong Kong,11,China
+hnd,Honduras,9,Central America and Caribbean
+hrv,Croatia,15,Europe_Non_EU
+hti,Haiti,9,Central America and Caribbean
+hun,Hungary,12,EU-12
+idn,Indonesia,18,Indonesia
+imn,Isle of Man,13,EU-15
+ind,India,17,India
+irl,Ireland,13,EU-15
+irn,"Iran, Islamic Republic of",21,Middle East
+irq,Iraq,21,Middle East
+isl,Iceland,16,European Free Trade Association
+isr,Israel,21,Middle East
+ita,Italy,13,EU-15
+jam,Jamaica,9,Central America and Caribbean
+jey,Jersey,13,EU-15
+jor,Jordan,21,Middle East
+jpn,Japan,19,Japan
+kaz,Kazakhstan,10,Central Asia
+ken,Kenya,2,Africa_Eastern
+kgz,Kyrgyzstan,10,Central Asia
+khm,Cambodia,29,Southeast Asia
+kir,Kiribati,29,Southeast Asia
+kna,Saint Kitts and Nevis,9,Central America and Caribbean
+kor,"Korea, Republic of",28,South Korea
+kwt,Kuwait,21,Middle East
+lao,Lao Peoples Democratic Republic,29,Southeast Asia
+lbn,Lebanon,21,Middle East
+lbr,Liberia,5,Africa_Western
+lby,Libyan Arab Jamahiriya,3,Africa_Northern
+lca,Saint Lucia,9,Central America and Caribbean
+lie,Liechtenstein,16,European Free Trade Association
+lka,Sri Lanka,27,South Asia
+lso,Lesotho,4,Africa_Southern
+ltu,Lithuania,12,EU-12
+lux,Luxembourg,13,EU-15
+lva,Latvia,12,EU-12
+mac,Macau,11,China
+mar,Morocco,3,Africa_Northern
+mco,Monaco,13,EU-15
+mda,"Moldova, Republic of",14,Europe_Eastern
+mdg,Madagascar,2,Africa_Eastern
+mdv,Maldives,27,South Asia
+mex,Mexico,20,Mexico
+mhl,Marshall Islands,29,Southeast Asia
+mkd,"Macedonia, the former Yugoslav Republic of",15,Europe_Non_EU
+mli,Mali,5,Africa_Western
+mlt,Malta,12,EU-12
+mmr,Myanmar,29,Southeast Asia
+mne,Montenegro,15,Europe_Non_EU
+mng,Mongolia,10,Central Asia
+mnp,Northern Mariana Islands,29,Southeast Asia
+moz,Mozambique,4,Africa_Southern
+mrt,Mauritania,5,Africa_Western
+msr,Montserrat,9,Central America and Caribbean
+mtq,Martinique,9,Central America and Caribbean
+mus,Mauritius,2,Africa_Eastern
+mwi,Malawi,4,Africa_Southern
+mys,Malaysia,29,Southeast Asia
+myt,Mayotte,29,Southeast Asia
+nam,Namibia,4,Africa_Southern
+ncl,New Caledonia,29,Southeast Asia
+ner,Niger,5,Africa_Western
+nfk,Norfolk Island,29,Southeast Asia
+nga,Nigeria,5,Africa_Western
+nic,Nicaragua,9,Central America and Caribbean
+niu,Niue,29,Southeast Asia
+nld,Netherlands,13,EU-15
+nor,Norway,16,European Free Trade Association
+npl,Nepal,27,South Asia
+nru,Nauru,29,Southeast Asia
+nzl,New Zealand,6,Australia_NZ
+omn,Oman,21,Middle East
+pak,Pakistan,22,Pakistan
+pan,Panama,9,Central America and Caribbean
+pci,Pacific Islands Trust Territory,29,Southeast Asia
+pcn,Pitcairn Islands,29,Southeast Asia
+per,Peru,26,South America_Southern
+phl,Philippines,29,Southeast Asia
+plw,Palau,29,Southeast Asia
+png,Papua New Guinea,29,Southeast Asia
+pol,Poland,12,EU-12
+pri,Puerto Rico,1,USA
+prk,"Korea, Democratic Peoples Republic of",29,Southeast Asia
+prt,Portugal,13,EU-15
+pry,Paraguay,26,South America_Southern
+pse,"Palestinian Territory, Occupied",21,Middle East
+pyf,French Polynesia,29,Southeast Asia
+qat,Qatar,21,Middle East
+reu,Reunion,2,Africa_Eastern
+rom,Romania,12,EU-12
+rus,Russian Federation,23,Russia
+rwa,Rwanda,2,Africa_Eastern
+sau,Saudi Arabia,21,Middle East
+scg,Serbia and Montenegro,15,Europe_Non_EU
+sdn,Sudan,2,Africa_Eastern
+sen,Senegal,5,Africa_Western
+sgp,Singapore,29,Southeast Asia
+shn,Saint Helena,13,EU-15
+sjm,Svalbard and Jan Mayen Islands,16,European Free Trade Association
+slb,Solomon Islands,29,Southeast Asia
+sle,Sierra Leone,5,Africa_Western
+slv,El Salvador,9,Central America and Caribbean
+smr,San Marino,13,EU-15
+som,Somalia,2,Africa_Eastern
+spm,Saint Pierre and Miquelon,13,EU-15
+srb,Serbia,15,Europe_Non_EU
+ssd,South Sudan,2,Africa_Eastern
+stp,Sao Tome and Principe,5,Africa_Western
+sur,Suriname,25,South America_Northern
+svk,Slovakia,12,EU-12
+svn,Slovenia,12,EU-12
+swe,Sweden,13,EU-15
+swz,Swaziland,4,Africa_Southern
+syc,Seychelles,29,Southeast Asia
+syr,Syrian Arab Republic,21,Middle East
+tca,Turks and Caicos,13,EU-15
+tcd,Chad,5,Africa_Western
+tgo,Togo,5,Africa_Western
+tha,Thailand,29,Southeast Asia
+tjk,Tajikistan,10,Central Asia
+tkl,Tokelau,29,Southeast Asia
+tkm,Turkmenistan,10,Central Asia
+tls,Timor Leste,29,Southeast Asia
+ton,Tonga,29,Southeast Asia
+tto,Trinidad and Tobago,9,Central America and Caribbean
+tun,Tunisia,3,Africa_Northern
+tur,Turkey,15,Europe_Non_EU
+tuv,Tuvalu,29,Southeast Asia
+twn,Taiwan,30,Taiwan
+tza,"Tanzania, United Republic of",4,Africa_Southern
+uga,Uganda,2,Africa_Eastern
+ukr,Ukraine,14,Europe_Eastern
+ury,Uruguay,26,South America_Southern
+usa,United States of America,1,USA
+uzb,Uzbekistan,10,Central Asia
+vat,Vatican,13,EU-15
+vct,Saint Vincent and the Grenadines,9,Central America and Caribbean
+ven,Venezuela,25,South America_Northern
+vgb,"Virgin Islands, British",13,EU-15
+vir,"Virgin Islands, U.S.",1,USA
+vnm,Viet Nam,29,Southeast Asia
+vut,Vanuatu,29,Southeast Asia
+wlf,Wallis and Futuna,13,EU-15
+wsm,Samoa,29,Southeast Asia
+yem,Yemen,21,Middle East
+yug,"Yugoslavia, Federal Republic of",15,Europe_Non_EU
+zaf,South Africa,24,South Africa
+zmb,Zambia,4,Africa_Southern
+zwe,Zimbabwe,4,Africa_Southern

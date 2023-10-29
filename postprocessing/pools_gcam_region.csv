@@ -1,0 +1,33 @@
+region,pool,GCAM_region_ID
+Russia,Senders,23
+China,Senders,11
+USA,Senders,1
+Japan,Senders,19
+EU-15,Senders,13
+India,Senders,17
+Argentina,Unchanged,31
+Australia_NZ,Unchanged,6
+Brazil,Unchanged,7
+Canada,Unchanged,8
+EU-12,Unchanged,12
+Europe_Eastern,Unchanged,14
+European Free Trade Association,Unchanged,16
+Indonesia,Unchanged,18
+Mexico,Unchanged,20
+South Africa,Unchanged,24
+South America_Northern,Unchanged,25
+South America_Southern,Unchanged,26
+South Korea,Unchanged,28
+Taiwan,Unchanged,30
+Africa_Northern,Receivers,3
+Central Asia,Receivers,10
+Middle East,Receivers,21
+Europe_Non_EU,Receivers,15
+Central America and Caribbean,Receivers,9
+Africa_Southern,Receivers,4
+Southeast Asia,Receivers,29
+Colombia,Receivers,32
+South Asia,Receivers,27
+Africa_Eastern,Receivers,2
+Pakistan,Receivers,22
+Africa_Western,Receivers,5

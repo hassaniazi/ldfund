@@ -1,0 +1,161 @@
+scenario,subRegion,region,param,class,x,value,units
+scenario,Africa_Eastern,region,param,class,2015,82.75339015,units
+scenario,Africa_Eastern,region,param,class,2020,114.9819,units
+scenario,Africa_Eastern,region,param,class,2050,414.1946894,units
+scenario,Africa_Eastern,region,param,class,2070,1010.704675,units
+scenario,Africa_Eastern,region,param,class,2100,2189.936544,units
+scenario,Africa_Northern,region,param,class,2015,543.1068189,units
+scenario,Africa_Northern,region,param,class,2020,613.9016327,units
+scenario,Africa_Northern,region,param,class,2050,1079.713606,units
+scenario,Africa_Northern,region,param,class,2070,1341.72503,units
+scenario,Africa_Northern,region,param,class,2100,1545.338248,units
+scenario,Africa_Southern,region,param,class,2015,87.1728177,units
+scenario,Africa_Southern,region,param,class,2020,88.70162235,units
+scenario,Africa_Southern,region,param,class,2050,343.6163437,units
+scenario,Africa_Southern,region,param,class,2070,897.5761247,units
+scenario,Africa_Southern,region,param,class,2100,1939.316788,units
+scenario,Africa_Western,region,param,class,2015,187.2564005,units
+scenario,Africa_Western,region,param,class,2020,222.3087331,units
+scenario,Africa_Western,region,param,class,2050,1037.072238,units
+scenario,Africa_Western,region,param,class,2070,2639.508711,units
+scenario,Africa_Western,region,param,class,2100,5304.762726,units
+scenario,Argentina,region,param,class,2015,205.5623561,units
+scenario,Argentina,region,param,class,2020,197.5784205,units
+scenario,Argentina,region,param,class,2050,257.2758751,units
+scenario,Argentina,region,param,class,2070,286.0179225,units
+scenario,Argentina,region,param,class,2100,300.0777244,units
+scenario,Australia_NZ,region,param,class,2015,447.9218098,units
+scenario,Australia_NZ,region,param,class,2020,475.4245818,units
+scenario,Australia_NZ,region,param,class,2050,533.4241963,units
+scenario,Australia_NZ,region,param,class,2070,607.8358772,units
+scenario,Australia_NZ,region,param,class,2100,631.6228852,units
+scenario,Brazil,region,param,class,2015,509.6316593,units
+scenario,Brazil,region,param,class,2020,510.5856882,units
+scenario,Brazil,region,param,class,2050,692.3308718,units
+scenario,Brazil,region,param,class,2070,831.758628,units
+scenario,Brazil,region,param,class,2100,916.5167313,units
+scenario,Canada,region,param,class,2015,603.4426451,units
+scenario,Canada,region,param,class,2020,638.7930381,units
+scenario,Canada,region,param,class,2050,634.4350143,units
+scenario,Canada,region,param,class,2070,671.6375052,units
+scenario,Canada,region,param,class,2100,741.2925963,units
+scenario,Central America and Caribbean,region,param,class,2015,208.3267582,units
+scenario,Central America and Caribbean,region,param,class,2020,224.9357998,units
+scenario,Central America and Caribbean,region,param,class,2050,308.1365991,units
+scenario,Central America and Caribbean,region,param,class,2070,396.7664751,units
+scenario,Central America and Caribbean,region,param,class,2100,506.5072121,units
+scenario,Central Asia,region,param,class,2015,541.5821938,units
+scenario,Central Asia,region,param,class,2020,594.0767515,units
+scenario,Central Asia,region,param,class,2050,704.6554853,units
+scenario,Central Asia,region,param,class,2070,729.5670188,units
+scenario,Central Asia,region,param,class,2100,698.349089,units
+scenario,China,region,param,class,2015,11164.95722,units
+scenario,China,region,param,class,2020,12751.97661,units
+scenario,China,region,param,class,2050,13258.08666,units
+scenario,China,region,param,class,2070,11238.46751,units
+scenario,China,region,param,class,2100,7227.968403,units
+scenario,Colombia,region,param,class,2015,95.52813842,units
+scenario,Colombia,region,param,class,2020,113.4012272,units
+scenario,Colombia,region,param,class,2050,207.9635097,units
+scenario,Colombia,region,param,class,2070,291.1285224,units
+scenario,Colombia,region,param,class,2100,346.5447216,units
+scenario,EU-12,region,param,class,2015,690.73791,units
+scenario,EU-12,region,param,class,2020,809.8279768,units
+scenario,EU-12,region,param,class,2050,805.4003245,units
+scenario,EU-12,region,param,class,2070,774.4518136,units
+scenario,EU-12,region,param,class,2100,644.829251,units
+scenario,EU-15,region,param,class,2015,2926.834044,units
+scenario,EU-15,region,param,class,2020,3028.110026,units
+scenario,EU-15,region,param,class,2050,2749.490238,units
+scenario,EU-15,region,param,class,2070,2906.932798,units
+scenario,EU-15,region,param,class,2100,3196.497307,units
+scenario,Europe_Eastern,region,param,class,2015,285.2577435,units
+scenario,Europe_Eastern,region,param,class,2020,310.0990546,units
+scenario,Europe_Eastern,region,param,class,2050,314.0314816,units
+scenario,Europe_Eastern,region,param,class,2070,315.6259847,units
+scenario,Europe_Eastern,region,param,class,2100,289.1470612,units
+scenario,Europe_Non_EU,region,param,class,2015,478.2153967,units
+scenario,Europe_Non_EU,region,param,class,2020,521.3426154,units
+scenario,Europe_Non_EU,region,param,class,2050,668.584737,units
+scenario,Europe_Non_EU,region,param,class,2070,737.9346046,units
+scenario,Europe_Non_EU,region,param,class,2100,744.3857839,units
+scenario,European Free Trade Association,region,param,class,2015,84.36188804,units
+scenario,European Free Trade Association,region,param,class,2020,86.52051215,units
+scenario,European Free Trade Association,region,param,class,2050,74.22408928,units
+scenario,European Free Trade Association,region,param,class,2070,103.1363761,units
+scenario,European Free Trade Association,region,param,class,2100,147.0203503,units
+scenario,India,region,param,class,2015,2302.293067,units
+scenario,India,region,param,class,2020,3227.30527,units
+scenario,India,region,param,class,2050,7708.737284,units
+scenario,India,region,param,class,2070,9842.164917,units
+scenario,India,region,param,class,2100,9667.087168,units
+scenario,Indonesia,region,param,class,2015,508.4344198,units
+scenario,Indonesia,region,param,class,2020,612.1500198,units
+scenario,Indonesia,region,param,class,2050,1219.748082,units
+scenario,Indonesia,region,param,class,2070,1484.459828,units
+scenario,Indonesia,region,param,class,2100,1528.46783,units
+scenario,Japan,region,param,class,2015,1205.520348,units
+scenario,Japan,region,param,class,2020,1224.49268,units
+scenario,Japan,region,param,class,2050,933.1057578,units
+scenario,Japan,region,param,class,2070,794.695095,units
+scenario,Japan,region,param,class,2100,609.8592201,units
+scenario,Mexico,region,param,class,2015,499.55095,units
+scenario,Mexico,region,param,class,2020,533.1621824,units
+scenario,Mexico,region,param,class,2050,717.3453633,units
+scenario,Mexico,region,param,class,2070,899.7634182,units
+scenario,Mexico,region,param,class,2100,1101.402357,units
+scenario,Middle East,region,param,class,2015,2152.642049,units
+scenario,Middle East,region,param,class,2020,2149.568636,units
+scenario,Middle East,region,param,class,2050,2834.361561,units
+scenario,Middle East,region,param,class,2070,3684.269942,units
+scenario,Middle East,region,param,class,2100,4537.960378,units
+scenario,Pakistan,region,param,class,2015,177.9610709,units
+scenario,Pakistan,region,param,class,2020,216.5419256,units
+scenario,Pakistan,region,param,class,2050,522.4189212,units
+scenario,Pakistan,region,param,class,2070,797.603731,units
+scenario,Pakistan,region,param,class,2100,1160.108661,units
+scenario,Russia,region,param,class,2015,1793.237374,units
+scenario,Russia,region,param,class,2020,1924.011467,units
+scenario,Russia,region,param,class,2050,1703.975777,units
+scenario,Russia,region,param,class,2070,1692.214009,units
+scenario,Russia,region,param,class,2100,1694.325326,units
+scenario,South Africa,region,param,class,2015,529.3791319,units
+scenario,South Africa,region,param,class,2020,516.9346937,units
+scenario,South Africa,region,param,class,2050,586.2753115,units
+scenario,South Africa,region,param,class,2070,637.6264346,units
+scenario,South Africa,region,param,class,2100,600.4492658,units
+scenario,South America_Northern,region,param,class,2015,179.4446101,units
+scenario,South America_Northern,region,param,class,2020,113.8925397,units
+scenario,South America_Northern,region,param,class,2050,149.4617985,units
+scenario,South America_Northern,region,param,class,2070,185.4375482,units
+scenario,South America_Northern,region,param,class,2100,257.666671,units
+scenario,South America_Southern,region,param,class,2015,227.7519638,units
+scenario,South America_Southern,region,param,class,2020,248.3810416,units
+scenario,South America_Southern,region,param,class,2050,415.366497,units
+scenario,South America_Southern,region,param,class,2070,538.1393109,units
+scenario,South America_Southern,region,param,class,2100,609.9831207,units
+scenario,South Asia,region,param,class,2015,133.7328034,units
+scenario,South Asia,region,param,class,2020,183.7743939,units
+scenario,South Asia,region,param,class,2050,521.1110943,units
+scenario,South Asia,region,param,class,2070,855.4818194,units
+scenario,South Asia,region,param,class,2100,1276.863769,units
+scenario,South Korea,region,param,class,2015,665.443602,units
+scenario,South Korea,region,param,class,2020,692.9115507,units
+scenario,South Korea,region,param,class,2050,558.3179483,units
+scenario,South Korea,region,param,class,2070,456.8685009,units
+scenario,South Korea,region,param,class,2100,340.5893615,units
+scenario,Southeast Asia,region,param,class,2015,1197.877843,units
+scenario,Southeast Asia,region,param,class,2020,1428.280757,units
+scenario,Southeast Asia,region,param,class,2050,2416.944283,units
+scenario,Southeast Asia,region,param,class,2070,3108.84972,units
+scenario,Southeast Asia,region,param,class,2100,3570.30715,units
+scenario,Taiwan,region,param,class,2015,286.7870987,units
+scenario,Taiwan,region,param,class,2020,302.9943492,units
+scenario,Taiwan,region,param,class,2050,279.0430364,units
+scenario,Taiwan,region,param,class,2070,267.9169618,units
+scenario,Taiwan,region,param,class,2100,238.3893747,units
+scenario,USA,region,param,class,2015,5269.640434,units
+scenario,USA,region,param,class,2020,5328.350958,units
+scenario,USA,region,param,class,2050,5255.666655,units
+scenario,USA,region,param,class,2070,5625.966858,units
+scenario,USA,region,param,class,2100,5928.075926,units

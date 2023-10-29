@@ -1,0 +1,243 @@
+iso,country,GCAM_region_ID,region,1C,2C,3C,4C
+pri,Puerto Rico,1,USA,-1.269,-3.297,-6.527,-10.536
+usa,United States of America,1,USA,-0.182,-0.392,-0.622,-0.885
+vir,"Virgin Islands, U.S.",1,USA,-0.231,-0.539,-0.902,-1.292
+bdi,Burundi,2,Africa_Eastern,-2.112,-4.75,-8.099,-11.862
+com,Comoros,2,Africa_Eastern,-2.112,-4.75,-8.099,-11.862
+dji,Djibouti,2,Africa_Eastern,-2.112,-4.75,-8.099,-11.862
+eri,Eritrea,2,Africa_Eastern,-2.112,-4.75,-8.099,-11.862
+eth,Ethiopia,2,Africa_Eastern,-1.862,-4.238,-6.704,-9.416
+ken,Kenya,2,Africa_Eastern,-2.331,-4.706,-7.238,-10.506
+mdg,Madagascar,2,Africa_Eastern,-1.976,-4.286,-7.212,-10.993
+mus,Mauritius,2,Africa_Eastern,-1.829,-4.399,-7.458,-11.245
+reu,Reunion,2,Africa_Eastern,-2.112,-4.75,-8.099,-11.862
+rwa,Rwanda,2,Africa_Eastern,-2.107,-4.49,-7.047,-9.819
+sdn,Sudan,2,Africa_Eastern,-2.112,-4.75,-8.099,-11.862
+som,Somalia,2,Africa_Eastern,-2.112,-4.75,-8.099,-11.862
+ssd,South Sudan,2,Africa_Eastern,-2.112,-4.75,-8.099,-11.862
+uga,Uganda,2,Africa_Eastern,-1.743,-3.652,-6.328,-10.404
+dza,Algeria,3,Africa_Northern,-0.653,-1.415,-2.394,-3.639
+egy,Egypt,3,Africa_Northern,-1.083,-2.377,-4,-6.143
+esh,Western Sahara,3,Africa_Northern,-0.653,-1.415,-2.394,-3.639
+lby,Libyan Arab Jamahiriya,3,Africa_Northern,-0.653,-1.415,-2.394,-3.639
+mar,Morocco,3,Africa_Northern,-0.77,-1.525,-2.436,-3.487
+tun,Tunisia,3,Africa_Northern,-0.871,-1.836,-3.052,-4.609
+ago,Angola,4,Africa_Southern,-0.9255,-1.9945,-3.1825,-4.642
+bwa,Botswana,4,Africa_Southern,-0.71,-1.659,-3.047,-4.873
+lso,Lesotho,4,Africa_Southern,-0.9255,-1.9945,-3.1825,-4.642
+moz,Mozambique,4,Africa_Southern,-2.411,-5.311,-8.878,-12.989
+mwi,Malawi,4,Africa_Southern,-2.277,-5.683,-9.266,-13.609
+nam,Namibia,4,Africa_Southern,-0.673,-1.464,-2.404,-3.616
+swz,Swaziland,4,Africa_Southern,-0.9255,-1.9945,-3.1825,-4.642
+tza,Tanzania,4,Africa_Southern,-1.546,-4.13,-6.988,-10.825
+zmb,Zambia,4,Africa_Southern,-1.097,-2.616,-4.414,-6.72
+zwe,Zimbabwe,4,Africa_Southern,-1.261,-2.726,-4.423,-6.502
+ben,Benin,5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+bfa,Burkina Faso,5,Africa_Western,-5.229,-10.894,-17.058,-23.586
+caf,Central African Republic,5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+civ,Cote dIvoire,5,Africa_Western,-4.71,-10.742,-17.528,-25.252
+cmr,Cameroon,5,Africa_Western,-2.276,-5.528,-9.396,-14.48
+cod,"Congo, the Democratic Republic of the",5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+cog,Congo,5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+cpv,Cape Verde,5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+gab,Gabon,5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+gha,Ghana,5,Africa_Western,-4.857,-10.815,-17.571,-24.983
+gin,Guinea,5,Africa_Western,-2.712,-6.093,-9.896,-14.689
+gmb,Gambia,5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+gnb,Guinea-Bissau,5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+gnq,Equatorial Guinea,5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+lbr,Liberia,5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+mli,Mali,5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+mrt,Mauritania,5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+ner,Niger,5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+nga,Nigeria,5,Africa_Western,-4.528,-9.689,-15.723,-22.25
+sen,Senegal,5,Africa_Western,-3.859,-8.189,-13.001,-18.544
+sle,Sierra Leone,5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+stp,Sao Tome and Principe,5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+tcd,Chad,5,Africa_Western,-2.7225,-6.0995,-10.2715,-15.15
+tgo,Togo,5,Africa_Western,-5.597,-12.221,-19.032,-26.556
+aus,Australia,6,Australia_NZ,-0.287,-0.642,-1.083,-1.585
+nzl,New Zealand,6,Australia_NZ,-0.144,-0.413,-0.798,-1.269
+bra,Brazil,7,Brazil,-0.615,-1.91,-3.843,-6.829
+can,Canada,8,Canada,-0.096,-0.158,-0.218,-0.321
+abw,Aruba,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+aia,Anguilla,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+ant,Netherlands Antilles,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+atg,Antigua & Barbuda,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+bhs,Bahamas,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+blz,Belize,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+bmu,Bermuda,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+brb,Barbados,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+cri,Costa Rica,9,Central America and Caribbean,-1.407,-4.047,-7.871,-12.928
+cub,Cuba,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+cuw,Curacao,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+cym,Cayman Islands,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+dma,Dominica,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+dom,Dominican Republic,9,Central America and Caribbean,-1.85,-4.406,-7.934,-12.171
+glp,Guadeloupe,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+grd,Grenada,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+gtm,Guatemala,9,Central America and Caribbean,-0.694,-1.553,-2.798,-4.533
+hnd,Honduras,9,Central America and Caribbean,-2.751,-6.492,-11.126,-16.521
+hti,Haiti,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+jam,Jamaica,9,Central America and Caribbean,-1.485,-3.696,-6.94,-10.813
+kna,Saint Kitts and Nevis,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+lca,Saint Lucia,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+msr,Montserrat,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+mtq,Martinique,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+nic,Nicaragua,9,Central America and Caribbean,-3.02,-6.898,-11.673,-17.264
+pan,Panama,9,Central America and Caribbean,-2.197,-5.367,-9.58,-14.457
+slv,El Salvador,9,Central America and Caribbean,-0.986,-2.498,-4.957,-8.438
+tto,Trinidad and Tobago,9,Central America and Caribbean,-1.69,-4.15,-7.357,-10.905
+vct,Saint Vincent and the Grenadines,9,Central America and Caribbean,-1.7695,-5.066,-9.9265,-15.418
+arm,Armenia,10,Central Asia,-0.739,-1.05,-1.35,-1.777
+aze,Azerbaijan,10,Central Asia,-0.756,-1.563,-2.638,-4.025
+geo,Georgia,10,Central Asia,-0.393,-0.68,-1.035,-1.769
+kaz,Kazakhstan,10,Central Asia,-0.371,-0.592,-0.82,-1.137
+kgz,Kyrgyzstan,10,Central Asia,-0.377,-0.614,-0.93,-1.5
+mng,Mongolia,10,Central Asia,-0.789,-1.664,-2.71,-3.981
+tjk,Tajikistan,10,Central Asia,-0.239,-0.392,-0.564,-0.888
+tkm,Turkmenistan,10,Central Asia,-0.239,-0.392,-0.564,-0.888
+uzb,Uzbekistan,10,Central Asia,-0.239,-0.392,-0.564,-0.888
+chn,China,11,China,-0.755,-1.694,-2.918,-4.597
+hkg,Hong Kong,11,China,-1.314,-3.082,-5.288,-7.655
+mac,Macau,11,China,-2.778,-6.002,-9.606,-13.88
+bgr,Bulgaria,12,EU-12,-0.09,-0.294,-0.59,-0.999
+cyp,Cyprus,12,EU-12,-0.194,-0.462,-0.816,-1.481
+cze,Czech Republic,12,EU-12,-0.169,-0.352,-0.567,-0.842
+est,Estonia,12,EU-12,-0.23,-0.476,-0.75,-1.087
+hun,Hungary,12,EU-12,-0.197,-0.39,-0.59,-0.884
+ltu,Lithuania,12,EU-12,-0.179,-0.288,-0.394,-0.587
+lva,Latvia,12,EU-12,-0.14,-0.259,-0.394,-0.564
+mlt,Malta,12,EU-12,-0.275,-0.691,-1.261,-2.083
+pol,Poland,12,EU-12,-0.166,-0.332,-0.514,-0.774
+rom,Romania,12,EU-12,-0.171,-0.329,-0.483,-0.754
+svk,Slovakia,12,EU-12,-0.129,-0.285,-0.47,-0.706
+svn,Slovenia,12,EU-12,-0.139,-0.31,-0.512,-0.764
+and,Andorra,13,EU-15,-0.089,-0.15,-0.205,-0.318
+aut,Austria,13,EU-15,-0.122,-0.287,-0.486,-0.728
+bel,Belgium,13,EU-15,-0.151,-0.33,-0.54,-0.788
+chi,Channel Islands,13,EU-15,-0.089,-0.15,-0.205,-0.318
+deu,Germany,13,EU-15,-0.118,-0.254,-0.415,-0.608
+dnk,Denmark,13,EU-15,-0.127,-0.252,-0.393,-0.573
+esp,Spain,13,EU-15,-0.147,-0.341,-0.575,-0.871
+fin,Finland,13,EU-15,-0.067,-0.153,-0.254,-0.383
+flk,Falkland Islands (Malvinas),13,EU-15,-0.089,-0.15,-0.205,-0.318
+fra,France,13,EU-15,-0.139,-0.285,-0.455,-0.662
+fro,Faroe Islands,13,EU-15,-0.089,-0.15,-0.205,-0.318
+gbr,United Kingdom,13,EU-15,-0.122,-0.26,-0.422,-0.613
+ggy,Guernsey,13,EU-15,-0.089,-0.15,-0.205,-0.318
+gib,Gibraltar,13,EU-15,-0.089,-0.15,-0.205,-0.318
+grc,Greece,13,EU-15,-0.048,-0.149,-0.275,-0.708
+grl,Greenland,13,EU-15,-0.089,-0.15,-0.205,-0.318
+imn,Isle of Man,13,EU-15,-0.089,-0.15,-0.205,-0.318
+irl,Ireland,13,EU-15,-0.184,-0.436,-0.748,-1.125
+ita,Italy,13,EU-15,-0.144,-0.342,-0.588,-0.906
+jey,Jersey,13,EU-15,-0.089,-0.15,-0.205,-0.318
+lux,Luxembourg,13,EU-15,-0.137,-0.343,-0.6,-0.896
+mco,Monaco,13,EU-15,-0.089,-0.15,-0.205,-0.318
+nld,Netherlands,13,EU-15,-0.118,-0.275,-0.467,-0.694
+prt,Portugal,13,EU-15,-0.12,-0.275,-0.46,-0.684
+shn,Saint Helena,13,EU-15,-0.089,-0.15,-0.205,-0.318
+smr,San Marino,13,EU-15,-0.089,-0.15,-0.205,-0.318
+spm,Saint Pierre and Miquelon,13,EU-15,-0.089,-0.15,-0.205,-0.318
+swe,Sweden,13,EU-15,-0.095,-0.211,-0.349,-0.516
+tca,Turks and Caicos,13,EU-15,-0.089,-0.15,-0.205,-0.318
+vat,Vatican,13,EU-15,-0.089,-0.15,-0.205,-0.318
+vgb,"Virgin Islands, British",13,EU-15,-0.089,-0.15,-0.205,-0.318
+wlf,Wallis and Futuna,13,EU-15,-0.089,-0.15,-0.205,-0.318
+blr,Belarus,14,Europe_Eastern,-0.176,-0.214,-0.249,-0.617
+mda,"Moldova, Republic of",14,Europe_Eastern,0.011,0.16,0.37,0.492
+ukr,Ukraine,14,Europe_Eastern,-0.153,-0.219,-0.25,-0.382
+alb,Albania,15,Europe_Non_EU,-0.395,-0.857,-1.461,-2.36
+bih,Bosnia and Herzegovina,15,Europe_Non_EU,-0.089,-0.15,-0.205,-0.318
+hrv,Croatia,15,Europe_Non_EU,-0.083,-0.216,-0.454,-0.946
+mkd,"Macedonia, the former Yugoslav Republic of",15,Europe_Non_EU,-0.089,-0.15,-0.205,-0.318
+mne,Montenegro,15,Europe_Non_EU,-0.089,-0.15,-0.205,-0.318
+scg,Serbia and Montenegro,15,Europe_Non_EU,-0.089,-0.15,-0.205,-0.318
+srb,Serbia,15,Europe_Non_EU,-0.089,-0.15,-0.205,-0.318
+tur,Turkey,15,Europe_Non_EU,-0.342,-0.842,-1.54,-2.479
+yug,"Yugoslavia, Federal Republic of",15,Europe_Non_EU,-0.089,-0.15,-0.205,-0.318
+che,Switzerland,16,European Free Trade Association,-0.094,-0.214,-0.355,-0.522
+isl,Iceland,16,European Free Trade Association,-0.097,-0.242,-0.421,-0.634
+lie,Liechtenstein,16,European Free Trade Association,-0.097,-0.242,-0.421,-0.634
+nor,Norway,16,European Free Trade Association,-0.16,-0.377,-0.646,-0.967
+sjm,Svalbard and Jan Mayen Islands,16,European Free Trade Association,-0.097,-0.242,-0.421,-0.634
+ind,India,17,India,-2.922,-6.434,-10.351,-14.622
+idn,Indonesia,18,Indonesia,-3.347,-7.98,-13.267,-19.04
+jpn,Japan,19,Japan,-0.182,-0.595,-1.335,-2.412
+mex,Mexico,20,Mexico,-0.506,-1.178,-2.277,-3.985
+are,United Arab Emirates,21,Middle East,-2.207,-4.799,-7.684,-10.976
+bhr,Bahrain,21,Middle East,-1.44,-3.192,-5.138,-7.303
+irn,Iran,21,Middle East,-0.894,-2.044,-3.516,-5.365
+irq,Iraq,21,Middle East,-0.829,-1.879,-3.306,-4.985
+isr,Israel,21,Middle East,-0.743,-1.514,-2.317,-3.416
+jor,Jordan,21,Middle East,-0.982,-1.998,-3.254,-4.835
+kwt,Kuwait,21,Middle East,-1.315,-2.795,-4.488,-6.387
+lbn,Lebanon,21,Middle East,-0.829,-1.879,-3.306,-4.985
+omn,Oman,21,Middle East,-0.996,-2.248,-3.78,-5.482
+pse,"Palestinian Territory, Occupied",21,Middle East,-0.829,-1.879,-3.306,-4.985
+qat,Qatar,21,Middle East,-2.091,-4.618,-7.304,-10.358
+sau,Saudi Arabia,21,Middle East,-1.65,-3.457,-5.449,-7.773
+syr,Syrian Arab Republic,21,Middle East,-0.829,-1.879,-3.306,-4.985
+yem,Yemen,21,Middle East,-0.829,-1.879,-3.306,-4.985
+pak,Pakistan,22,Pakistan,-1.901,-3.994,-6.435,-9.338
+rus,Russian Federation,23,Russia,-0.266,-0.568,-0.936,-1.405
+zaf,South Africa,24,South Africa,-0.74,-1.57,-2.464,-3.433
+guf,French Guiana,25,South America_Northern,-0.459,-0.937,-1.545,-2.446
+guy,Guyana,25,South America_Northern,-0.459,-0.937,-1.545,-2.446
+sur,Suriname,25,South America_Northern,-0.459,-0.937,-1.545,-2.446
+ven,Venezuela,25,South America_Northern,-0.649,-1.794,-3.614,-6.339
+bol,Bolivia,26,South America_Southern,-0.65,-1.442,-2.332,-3.356
+chl,Chile,26,South America_Southern,-0.323,-0.709,-1.158,-1.674
+ecu,Ecuador,26,South America_Southern,-0.741,-1.627,-2.599,-3.801
+per,Peru,26,South America_Southern,-0.509,-1.169,-1.934,-2.768
+pry,Paraguay,26,South America_Southern,-1.604,-3.873,-6.729,-10.142
+ury,Uruguay,26,South America_Southern,-0.471,-1.023,-1.776,-2.785
+afg,Afghanistan,27,South Asia,-2.778,-6.002,-9.606,-13.88
+bgd,Bangladesh,27,South Asia,-2.285,-4.755,-7.591,-11.237
+btn,Bhutan,27,South Asia,-2.778,-6.002,-9.606,-13.88
+lka,Sri Lanka,27,South Asia,-2.989,-6.941,-11.716,-17.437
+mdv,Maldives,27,South Asia,-2.778,-6.002,-9.606,-13.88
+npl,Nepal,27,South Asia,-1.012,-2.881,-5.731,-9.859
+kor,South Korea,28,South Korea,-0.211,-0.731,-1.498,-2.666
+asm,American Samoa,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+brn,Brunei Darussalam,29,Southeast Asia,-1.202,-3.134,-5.563,-8.173
+cck,Cocos (Keeling) Islands,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+cok,Cook Islands,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+cxr,Christmas Island,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+fji,Fiji,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+fsm,"Micronesia, Federated States of",29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+gum,Guam,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+khm,Cambodia,29,Southeast Asia,-3.509,-7.572,-12.101,-17.183
+kir,Kiribati,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+lao,Laos,29,Southeast Asia,-3.369,-6.795,-10.62,-15.759
+mhl,Marshall Islands,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+mmr,Myanmar,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+mnp,Northern Mariana Islands,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+mys,Malaysia,29,Southeast Asia,-3.084,-7.145,-12.118,-17.339
+myt,Mayotte,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+ncl,New Caledonia,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+nfk,Norfolk Island,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+niu,Niue,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+nru,Nauru,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+pci,Pacific Islands Trust Territory,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+pcn,Pitcairn Islands,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+phl,Philippines,29,Southeast Asia,-4.113,-9.185,-14.798,-20.986
+plw,Palau,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+png,Papua New Guinea,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+prk,"Korea, Democratic Peoples Republic of",29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+pyf,French Polynesia,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+sgp,Singapore,29,Southeast Asia,-2.729,-6.923,-11.652,-16.566
+slb,Solomon Islands,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+syc,Seychelles,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+tha,Thailand,29,Southeast Asia,-2.541,-5.749,-9.243,-13.269
+tkl,Tokelau,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+tls,Timor Leste,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+ton,Tonga,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+tuv,Tuvalu,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+vnm,Vietnam,29,Southeast Asia,-2.223,-4.862,-7.959,-11.641
+vut,Vanuatu,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+wsm,Samoa,29,Southeast Asia,-3.1,-6.9095,-11.207,-16.1415
+twn,Taiwan,30,Taiwan,-1.597,-3.56,-5.978,-8.552
+arg,Argentina,31,Argentina,-0.36,-0.872,-1.583,-2.61
+col,Colombia,32,Colombia,-1.104,-2.714,-5.532,-9.325

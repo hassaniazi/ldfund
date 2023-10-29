@@ -1,0 +1,11 @@
+scenario,region,sector,year,value,value_ref,prices_bysector_change,pool,GCAM_region_ID
+4CgSSP2,Africa_Western,trn_pass_road,2100,0.3927680,0.3513770,11.78,Receivers,5
+4CgSSP2,Africa_Western,trn_pass_road_LDV,2100,0.3937970,0.3541430,11.20,Receivers,5
+4CgSSP2,Africa_Western,trn_pass,2100,0.4114760,0.3736030,10.14,Receivers,5
+3CgSSP2,Africa_Western,trn_pass_road,2100,0.3804280,0.3513770,8.27,Receivers,5
+4CgSSP2,Pakistan,water_td_irr_HamuMashR_W,2100,0.0258465,0.0239541,7.90,Receivers,22
+2CgSSP2,Southeast Asia,water_td_irr_BoHai_W,2100,0.0002281,0.0002964,-23.05,Receivers,29
+3CgSSP2,China,water_td_irr_BoHai_W,2100,0.0002486,0.0003636,-31.64,Senders,11
+3CgSSP2,Southeast Asia,water_td_irr_BoHai_W,2100,0.0001819,0.0002964,-38.63,Receivers,29
+4CgSSP2,China,water_td_irr_BoHai_W,2100,0.0002125,0.0003636,-41.58,Senders,11
+4CgSSP2,Southeast Asia,water_td_irr_BoHai_W,2100,0.0001460,0.0002964,-50.74,Receivers,29

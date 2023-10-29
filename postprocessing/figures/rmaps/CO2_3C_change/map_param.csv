@@ -1,0 +1,65 @@
+scenario,subRegion,region,param,class,x,value,units
+scenario,Africa_Western,region,param,class,2020,14.17906063,units
+scenario,Africa_Eastern,region,param,class,2020,6.893288164,units
+scenario,Colombia,region,param,class,2020,6.822175395,units
+scenario,Africa_Western,region,param,class,2100,6.311313656,units
+scenario,Pakistan,region,param,class,2020,6.099072717,units
+scenario,South Asia,region,param,class,2020,5.586685513,units
+scenario,Africa_Eastern,region,param,class,2100,4.75007167,units
+scenario,Africa_Southern,region,param,class,2020,3.603654819,units
+scenario,Pakistan,region,param,class,2100,2.909346956,units
+scenario,Colombia,region,param,class,2100,2.88668699,units
+scenario,South Asia,region,param,class,2100,2.696930736,units
+scenario,Southeast Asia,region,param,class,2020,2.335684158,units
+scenario,Southeast Asia,region,param,class,2100,2.152643075,units
+scenario,Africa_Southern,region,param,class,2100,2.13170924,units
+scenario,Central America and Caribbean,region,param,class,2100,1.236374976,units
+scenario,Central America and Caribbean,region,param,class,2020,0.9883360102,units
+scenario,Europe_Non_EU,region,param,class,2020,0.9069238391,units
+scenario,Europe_Non_EU,region,param,class,2100,0.6083934454,units
+scenario,Middle East,region,param,class,2100,0.4613525596,units
+scenario,South America_Northern,region,param,class,2100,0.3457038232,units
+scenario,Central Asia,region,param,class,2020,0.2529420359,units
+scenario,European Free Trade Association,region,param,class,2100,0.2527484071,units
+scenario,Middle East,region,param,class,2020,0.2147589215,units
+scenario,Africa_Northern,region,param,class,2020,0.1952067144,units
+scenario,Central Asia,region,param,class,2100,0.181313415,units
+scenario,South America_Northern,region,param,class,2020,0.1390220097,units
+scenario,Canada,region,param,class,2100,0.08394949484,units
+scenario,Australia_NZ,region,param,class,2100,0.0823536297,units
+scenario,EU-12,region,param,class,2100,0.07272622923,units
+scenario,Africa_Northern,region,param,class,2100,0.05634272139,units
+scenario,Indonesia,region,param,class,2100,0.04784446786,units
+scenario,Canada,region,param,class,2020,0.03380234795,units
+scenario,Taiwan,region,param,class,2100,0.03011373092,units
+scenario,Europe_Eastern,region,param,class,2100,0.03010389037,units
+scenario,Mexico,region,param,class,2100,0.02957248602,units
+scenario,South Africa,region,param,class,2100,0.02510386746,units
+scenario,Europe_Eastern,region,param,class,2020,0.01754911123,units
+scenario,EU-12,region,param,class,2020,0.01683176622,units
+scenario,Australia_NZ,region,param,class,2020,0.004942991494,units
+scenario,Argentina,region,param,class,2020,0.003463983543,units
+scenario,Indonesia,region,param,class,2020,0.002231038022,units
+scenario,South America_Southern,region,param,class,2100,0.001539680874,units
+scenario,European Free Trade Association,region,param,class,2020,0.001248010653,units
+scenario,South Africa,region,param,class,2020,0.001025478632,units
+scenario,Taiwan,region,param,class,2020,0.0005215096184,units
+scenario,South America_Southern,region,param,class,2020,-0.004214692487,units
+scenario,Mexico,region,param,class,2020,-0.004918101596,units
+scenario,South Korea,region,param,class,2020,-0.007115718034,units
+scenario,South Korea,region,param,class,2100,-0.01110743257,units
+scenario,Brazil,region,param,class,2020,-0.0126062304,units
+scenario,Argentina,region,param,class,2100,-0.0639031895,units
+scenario,EU-15,region,param,class,2020,-0.06401638303,units
+scenario,Brazil,region,param,class,2100,-0.09229421136,units
+scenario,Japan,region,param,class,2020,-0.1769217442,units
+scenario,USA,region,param,class,2020,-0.2046563592,units
+scenario,China,region,param,class,2020,-0.307145647,units
+scenario,EU-15,region,param,class,2100,-0.4052550016,units
+scenario,India,region,param,class,2100,-0.5052202716,units
+scenario,India,region,param,class,2020,-0.5894686352,units
+scenario,Russia,region,param,class,2020,-0.6936497418,units
+scenario,Japan,region,param,class,2100,-1.825221114,units
+scenario,USA,region,param,class,2100,-1.978807135,units
+scenario,China,region,param,class,2100,-2.400970068,units
+scenario,Russia,region,param,class,2100,-4.001888664,units

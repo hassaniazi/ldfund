@@ -1,0 +1,11 @@
+scenario,region,sector,pool,avg_value,avg_value_ref,avg_prices_bysector_change
+3CgSSP2,Africa_Western,trn_pass_road,Receivers,0.177223,0.165019,7.40
+4CgSSP2,Africa_Eastern,water_td_irr_CongoR_W,Receivers,0.001152,0.001072,7.43
+4CgSSP2,Africa_Western,trn_pass,Receivers,0.204641,0.187031,9.42
+4CgSSP2,Africa_Western,trn_pass_road,Receivers,0.182354,0.165019,10.50
+4CgSSP2,Africa_Western,trn_pass_road_LDV,Receivers,0.206781,0.192121,7.63
+3CgSSP2,Central Asia,water_td_irr_VolgaR_W,Receivers,0.000114,0.000144,-20.62
+3CgSSP2,Russia,water_td_irr_VolgaR_W,Senders,0.000081,0.000104,-21.86
+4CgSSP2,Central Asia,water_td_irr_VolgaR_W,Receivers,0.000112,0.000144,-22.57
+4CgSSP2,Russia,water_td_irr_VolgaR_W,Senders,0.000079,0.000104,-23.95
+4CgSSP2,Russia,water_td_pri_W,Senders,0.000704,0.000880,-20.00
